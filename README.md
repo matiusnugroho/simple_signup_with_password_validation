@@ -4,6 +4,8 @@
 ```
 npm install
 ```
+## Environment
+see .env.example and modify to match your credentials
 
 ### Run
 ```
