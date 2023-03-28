@@ -1,3 +1,8 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
 module.exports = {
-  secret: "matius-nugroho-vini-mei-243479"
+  secret: process.env.SECRET,
+  gmail_username : process.env.GMAIL_USERNAME,
+  gmail_password : process.env.GMAIL_PASSWORD
 };
